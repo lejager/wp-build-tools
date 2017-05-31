@@ -1,0 +1,16 @@
+{
+  "name": "ropeswing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass --output-style nested -o ropeswing.dev/wp-content/themes/ropeswing ropeswing.dev/wp-content/themes/ropeswing",
+    "watch": "onchange 'ropeswing.dev/wp-content/themes/ropeswing/*.scss' -- npm run build"
+  },
+  "author": "Aten Design Group",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^3.9.3",
+    "nodemon": "^1.10.2"
+  }
+}
